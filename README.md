@@ -1,4 +1,4 @@
-# https://blobby-boi.github.io/Blobwifi/
+# https://tropical-express.github.io/Gnomewifi/
 ## Gnomewifi
 Gnomewifi is an exploit that allows Chromebook users to bypass Wi-Fi restrictions.
 
