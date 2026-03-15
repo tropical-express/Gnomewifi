@@ -1,5 +1,5 @@
 # https://blobby-boi.github.io/Blobwifi/
-## Blobwifi
+## Gnomewifi
 Blobwifi is an exploit that allows Chromebook users to bypass Wi-Fi restrictions.
 
 ### How does it work?
