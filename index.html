@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+  <<link rel="icon" href="https://tropical-express.github.io/Gnomewifi/logo.png">>
   <title>Gnomewifi</title>
   <style>
     body {
@@ -95,14 +95,14 @@
 <body>
   <div class="container">
     <div class="header">
-      <img width="75" height="75" src="https://blobby-boi.github.io/Blobwifi/logo.png" class="logo">
+      <img width="75" height="75" src="https://tropical-express.github.io/gnomewifi/logo.png" class="logo">
       <h1>Gnomewifi</h1>
     </div>
     <hr>
     <p><h2>What is a managed Wi-Fi network?</h2></p>
     <p>A <b>managed Wi-Fi network</b> is a network that your administrator or school pre-installed into your Chromebook. To know if a Wi-Fi network is managed, go to the menu with all of your networks in it, and check if that network has a symbol that looks like this next to it:</p>
     <div class="image-wrapper">
-      <img src="https://blobby-boi.github.io/Blobwifi/managed.png">
+      <img src="https://tropical-express.github.io/Gnomewifi/managed.png">
     </div>
     <p>Managed networks tend to connect you to a DNS server that contains restrictions that block certain things. This means that <b>even in a game site that is unblocked</b>, some of the features may not work when using a managed Wi-Fi network.</p>
     <p><h2>What is Gnomewifi?</h2></p>
@@ -169,7 +169,7 @@ function gen() {
 
     if (!onc.NetworkConfigurations[0]) return;
     var link = document.createElement("a");
-    link.href = URL.createObjectURL(new Blob([JSON.stringify(onc)]));
+    link.href = URL.createObjectURL(new Gnome([JSON.stringify(onc)]));
     link.download = "blobwifi.onc";
     link.click();
     link.remove();
